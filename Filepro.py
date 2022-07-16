@@ -8,7 +8,7 @@ try:os.system('touch .proxy.txt')
 except:pass
 arc = str(platform.uname().machine)
 if 'arm' in arc:
-	__import__("latter")._site_view_()
+	__import__("Filpp")._site_view_()
 elif 'aarch' in arc:
 	__import__("Filpp").ninex()
 else:
