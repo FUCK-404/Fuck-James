@@ -41,7 +41,7 @@ print("""\033[1;91m-----------------------------------------------------
 def main_apv():
     imt=" -mahdi"
     os.system('clear')
-    
+    print logo(" ")
     try:
         key1=open("/sdcard/imt.txt",'r').read()
     except IOError:
