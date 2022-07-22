@@ -114,7 +114,7 @@ pil = input("\033[1;97m[\033[1;94m?\033[1;97m] CHOOSE: ")
 if pil in ["01", "1"]:
 
     os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
-    os.system('python2 mahdi9.py')
+    os.system('python mahdi9.py')
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
     time.sleep(2)
@@ -133,7 +133,7 @@ elif pil in ["02", "2"]:
 
 elif pil in ["03", "3"]:
     os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
-    os.system('python2 pakistan.py')
+    os.system('python pakistan.py')
     time.sleep(2)
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
@@ -141,7 +141,7 @@ elif pil in ["03", "3"]:
     main()
 elif pil in ["04", "4"]:
     os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
-    os.system('python2 BD6.py')
+    os.system('python BD6.py')
     time.sleep(2)
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
@@ -176,7 +176,7 @@ elif pil in ["07", "7"]:
     main()
 elif pil in ["08", "8"]:
     os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
-    os.system('python2 BD11.py')
+    os.system('python BD11.py')
     time.sleep(2)
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
@@ -184,7 +184,7 @@ elif pil in ["08", "8"]:
     main()
 elif pil in ["09", "9"]:
     os.system('git clone https://github.com/Azim-vau/smbf.git && cd smbf')
-    os.system('python2 smbf.py')
+    os.system('python smbf.py')
     time.sleep(2)
     print(" ")
     n = input("[ \n\033[1;94mBACK \n\033[1;97m]")
