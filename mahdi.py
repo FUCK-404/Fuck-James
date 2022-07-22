@@ -41,12 +41,12 @@ print("""\033[1;91m-----------------------------------------------------
 def main_apv():
     imt=" -mahdi"
     os.system('clear')
-    print logo
+    print logo()
     try:
         key1=open("/sdcard/imt.txt",'r').read()
     except IOError:
         os.system("clear")
-        print logo
+        print logo()
         print ("You dont have subscrption")
         print ("Hello Dear Ya Cammonds Paid Han Or Ap Ke Subscription Nhi Ha Please Ap Admin Sa Rabta Kran Thanks")
         print (" Subscription Kelya Enter Press Kro Or Whatsapp Pa Rabta Kro Thanks")
@@ -64,7 +64,7 @@ def main_apv():
         tool()
     else:
         os.system("clear")
-        print logo
+        print logo()
         print ("You dont have subscrption")
         print ("Hello Dear This Cammonds is Paid ,So friest toy need premishon on the admin Thank you all")
         print (" Subscription Kelya Enter Press Or contract Whatsapp   Thanks ypu all")
